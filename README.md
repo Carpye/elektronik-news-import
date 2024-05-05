@@ -12,6 +12,7 @@ PASSWORD=
 DATABASE=zseis
 
 API_TOKEN=<strapi_api_token>
+API_URL=https://my.strapi.instance/api/articles
 
 INTERVAL=100 # interval indicates time between each put request. If too low strapi could block some requests. The default value is 100 if unset.
 ```

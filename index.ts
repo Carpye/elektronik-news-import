@@ -42,7 +42,7 @@ async function convert(item: any) {
 
 function put(title: string, content: string, date: string) {
   axios.post(
-    "https://api.thefinalpath.net/api/articles",
+    process.env.API_URL!,
     {
       data: {
         title: title,
