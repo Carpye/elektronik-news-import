@@ -17,7 +17,13 @@ API_URL=https://my.strapi.instance/api/articles
 INTERVAL=100 # interval indicates time between each put request. If too low strapi could block some requests. The default value is 100 if unset.
 ```
 
-### 3. Run the script
+### 3. Install deps
+
+```bash
+bun i
+```
+
+### 4. Run the script
 
 ```bash
 bun index
@@ -29,7 +35,7 @@ or
 bun .
 ```
 
-### 4. And wait...
+### 5. And wait...
 
 ```bash
 ...
